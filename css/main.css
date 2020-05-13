@@ -98,59 +98,59 @@ textarea {
    ========================================================================== */
 
 /* General Styles */
- 
+
 html {
 	font-size: 16px;
 }
- 
+
 body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   color: #e2e3ed;
   text-align: left;
 }
- 
-ul, 
+
+ul,
 ol {
   list-style-type: none;
 }
- 
+
 a {
   color: #e2e3ed;
   text-decoration: none;
 }
- 
+
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
 }
- 
-h3, 
+
+h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.125em;
   margin: 20px 0;
 }
- 
+
 p {
   font-size: .875em;
   line-height: 1.285;
 }
- 
+
 img {
  width: 100%;
 }
- 
+
 figure {
  margin: 0;
 }
- 
+
 address {
  font-style: normal;
 }
- 
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -188,7 +188,7 @@ header figure {
 }
 
 .header-divider {
-  background: #3a3a3a; 
+  background: #3a3a3a;
   height: 1px;
   width: 100%;
   margin: 10px 0 20px 0;
@@ -266,9 +266,9 @@ footer .copyright {
 
 .hero-area h1 {
   font-size: 2.25em;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif; 
-  font-weight: 500; 
-  line-height: 1.2; 
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 /* Aside */
@@ -380,6 +380,22 @@ input[type=button] {
 
 .contact-content p {
   margin: 0;
+}
+
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* ==========================================================================
@@ -512,7 +528,7 @@ input[type=button] {
     max-width: 640px;
     margin: 100px 0;
   }
-      
+
   h2 {
     font-size: 2.25em;
     line-height: 1.333;
@@ -588,7 +604,7 @@ input[type=button] {
     flex-flow: column wrap;
     flex-basis: 50%;
   }
-  
+
   .features .features-item-description {
     width: 62%;
   }
@@ -700,7 +716,7 @@ input[type=button] {
   header {
     padding: 15px 0;
   }
-  
+
   .hero-area {
     min-height: 775px;
   }
@@ -752,7 +768,7 @@ input[type=button] {
   .features article {
     flex-basis: 33%;
   }
-  
+
   /* Reviews */
   .reviews article div {
     width: 42%;
@@ -787,7 +803,7 @@ input[type=button] {
     width: 100%;
     font-size: 3em;
   }
-    
+
   .faq h4,
   .faq p {
       font-size: 1.125em;
